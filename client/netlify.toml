@@ -1,4 +1,4 @@
 [[redirects]]
 form = "/*"
-to = "/index.html"
+to = "/client/public/index.html"
 status = 200
