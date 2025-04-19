@@ -24,9 +24,11 @@ const connect = async () => {
 mongoose.connection.on("disconnected", () => {
     console.log("mongoDB disconnected!");
   });
-// app.get("/",(req,res) => {
-//     res.send("hello dost are you okkk")
-// })
+
+
+app.get("/",(req,res) => {
+    res.send("hello this is backend of hotel booking app")
+})
 
 app.use(cors());
 app.use(cookieParser());
